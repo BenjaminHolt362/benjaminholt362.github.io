@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 2000px;
+}
+
+/*
+There's probably some unnecessary CSS here, but it took me long
+enough to get this working right that I no longer remember which
+parts are important.
+*/
+
+nav
+{
+    display: flex;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+}
+
+h1
+{
+    display: flex;
+    margin-left: 5%;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    padding: 5px;
+}
+
+ul *
+{
+    padding: 5px;
+    border: 1px solid black;
+    justify-self: center;
+    margin: 1%;
+    display: inline-block;
+}
+
+li *
+{
+    border: 0px;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
